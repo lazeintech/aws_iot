@@ -1,7 +1,7 @@
 {
-    "afr_source_dir":"$afr_source_dir",
-    "thing_name":"$thing_name",
-    "wifi_ssid":"$wifi_ssid",
-    "wifi_password":"$wifi_password",
-    "wifi_security":"$wifi_security"
+    "afr_source_dir":"/Users/tungnt/Documents/AWS_IoT/amazon-freertos",
+    "thing_name":"ESP32Board",
+    "wifi_ssid":"Home2.4G",
+    "wifi_password":"1234321234",
+    "wifi_security":"eWiFiSecurityWPA2"
 }
