@@ -35,7 +35,7 @@
 /*
  * MQTT Broker endpoint.
  */
-static const char clientcredentialMQTT_BROKER_ENDPOINT[] = "a30k6hmjtnwuqi.iot.ap-northeast-1.amazonaws.com";
+static const char clientcredentialMQTT_BROKER_ENDPOINT[] = "a30k6hmjtnwuqi-ats.iot.ap-northeast-1.amazonaws.com";
 
 
 /* Use of a "define" and not a "static const" here to be able to

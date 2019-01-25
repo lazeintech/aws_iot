@@ -33,10 +33,12 @@
 #define _AWS_BLE_CONFIG_H_
 
 /* Device name for this peripheral device. */
-#define bleconfigDEVICE_NAME                     "ESP32"
+#define bleconfigDEVICE_NAME                     "ESP32-1"
 
 /* Enable WIFI provisioning GATT service. */
 #define bleconfigENABLE_WIFI_PROVISIONING         ( 1 )
+
+#define bleconfigENABLE_GATT_DEMO                 ( 1 )
 
 /* Include BLE default config at bottom to set the default values for the configurations which are not overridden */
 #include "aws_ble_config_defaults.h"

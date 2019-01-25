@@ -741,7 +741,7 @@ static AwsIotMqttError_t _connectCommon( AwsIotMqttConnection_t * pMqttConnectio
         }
     }
 
-    AwsIotLogInfo( "Establishing new MQTT connection." );
+    AwsIotLogInfo( "TNT Establishing new MQTT connection." );
 
     /* Create a CONNECT operation. */
     connectStatus = AwsIotMqttInternal_CreateOperation( &pConnectOperation,
@@ -2117,7 +2117,7 @@ AwsIotMqttError_t AwsIotMqtt_Wait( AwsIotMqttReference_t reference,
         return AWS_IOT_MQTT_BAD_PARAMETER;
     }
 
-    AwsIotLogInfo( "Waiting for operation %s to complete.",
+    AwsIotLogInfo( "TNT Waiting for operation %s to complete.",
                    AwsIotMqtt_OperationType( pOperation->operation ) );
 
     /* Wait for the operation to be sent once. This wait should return quickly. */
